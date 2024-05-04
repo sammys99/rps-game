@@ -1,0 +1,15 @@
+body {
+    font-family: "Luckiest Guy";
+}
+input{
+    font-family: "Luckiest Guy";
+}
+.life{
+    width: 2rem;
+}
+.choice{
+    width: 20rem;
+}
+.comp-choice{
+    width: 20rem;
+}
