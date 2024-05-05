@@ -6,41 +6,43 @@
     <title>Rock Paper Scissor</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Tillana:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Tillana:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
     <div id="names">
-    <div id="playerName">
+    <div class="playerName playerName-primary"><!--This way they have a single class name but if i want at specific class is primary or secondary-->
         <input type="text" id="nameInput" value="Write your name" onclick="this.select();">
      <img src="img/life.png" alt="heart" class="life">
      <img src="img/life.png" alt="heart" class="life">
      <img src="img/life.png" alt="heart" class="life">
     </div>
-   <div id="computer">
+   <div class="playerName playerName-secondary">
     <img src="img/life.png" alt="heart" class="life">
    <img src="img/life.png" alt="heart" class="life">
    <img src="img/life.png" alt="heart" class="life"> 
-    <p>Computer</p> 
+    <p class="player-comp">Computer</p> 
     </div>
 </div>
 </header>
 <main>
 <div id="startGame">
-<h1>ROCK</h1>
+<h1 class="rock-word">ROCK</h1>
 <button id="startButton">Start</button>
 </div>
 <div id="choices">
 <img src="img/rock.png" alt="rock" class="choice">
 <img src="img/paper.png" alt="paper" class="choice">
 <img src="img/scissor.png" alt="scissor" class="choice">
-<div id="selector"><p>CHOOSE</p></div>
+<div id="selector"><p class="choose">CHOOSE</p></div>
 </div>
+
 <div id="computerChoice">
-<h1>COMPUTER</h1>
+<h1 class="comp-choice-word">COMPUTER</h1>
 <img src="img/rock.png" alt="rock" class="comp-choice">
 </div>
+
 </main>
     
 
