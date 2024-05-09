@@ -51,9 +51,7 @@ main{
     margin: 1rem;
     align-items: center;
 }
-.rock-name{
-    margin: .5rem;
-}
+
 #startButton {
     background-color: #10C517; /* Color de fondo del botón */
     color: white; /* Color del texto */
